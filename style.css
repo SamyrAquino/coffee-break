@@ -42,19 +42,25 @@ header a:hover{
     justify-content: space-between;
     padding-top: 15vh;
     max-height: 520px;
+    padding: 75px 15px;
 }
 #principal > div{
     flex-direction: column;
     max-width: 500px;
+    min-width: 300px;
 }
 #principal h1{
     font-family: var(--fonte-titulo);
     font-size: 2.2em;
+    line-height: 1.3em;
 }
 #principal p{
     font-family: var(--fonte-texto);
     line-height: 1.5em;
-    padding: 15px 0px;
+    padding: 25px 0px;
     text-align: justify;
    
+}
+#imagem img{
+    width: 100%;
 }
