@@ -6,12 +6,12 @@
         padding-top: 30px;   
     }
     header ul{
-        display: none;
+        padding-top: 40px;
+        text-align: left;
     }    
     #principal{
         display: flex;
         flex-direction: column;
-        padding-top: 35px;
         margin-bottom: 35vh;
     }
 

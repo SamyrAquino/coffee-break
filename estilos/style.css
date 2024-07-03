@@ -25,12 +25,15 @@ header{
 header span{
     font-family: var(--fonte-titulo);
     padding-left: 10px;
+    font-weight: bold;
 }
 header a{
     padding: 15px;
     color: var(--cor3);
     text-decoration: none;
     font-family: var(--fonte-texto);
+    font-weight: 500;
+    font-size: 0.9em;
 }
 header a:hover{
     color: var(--cor1);
