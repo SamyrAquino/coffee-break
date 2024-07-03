@@ -72,6 +72,7 @@ header a:hover{
 }
 section{
     background-image: linear-gradient(to top, var(--cor2), white);
+    padding-bottom: 40px;
 }
 section h2{
     text-align: center;
@@ -110,7 +111,7 @@ footer{
     text-align: center;
     font-family: var(--fonte-texto);
     font-size: 0.8em;
-    padding: 30px 0px 10px 0px;
+    padding: 20px 0px 10px 0px;
 }
 footer p{
     padding: 3px;

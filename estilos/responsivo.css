@@ -3,7 +3,8 @@
     header{
         display: block;
         text-align: center;
-        padding-top: 30px;   
+        padding-top: 30px; 
+        padding-bottom: 20px;  
     }
     header ul{
         padding-top: 40px;
