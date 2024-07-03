@@ -1,0 +1,19 @@
+@media screen and (max-width:600px){
+
+    header{
+        display: block;
+        text-align: center;
+        padding-top: 30px;   
+    }
+    header ul{
+        display: none;
+    }    
+    #principal{
+        display: flex;
+        flex-direction: column;
+        padding-top: 35px;
+        margin-bottom: 35vh;
+    }
+
+
+}
