@@ -95,6 +95,12 @@ section > article > div{
     background-color: white;
     border-radius:10px ;
 }
+#latte{
+    width: 199px;
+}
+#mocha{
+    width: 199px;
+}
 section > article > div > img{
     border-radius: 10px 10px 0px 0px;
 }
