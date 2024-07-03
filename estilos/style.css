@@ -1,0 +1,124 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+RO:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --cor1:#e8caaf;
+    --cor2:#b2986c;
+    --cor3:#0a0908;
+    --fonte-titulo: "Playwrite RO", cursive;
+    --fonte-texto: "Rubik", sans-serif;
+}
+header{
+   display: flex;
+   background-color: var(--cor2);
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center ;
+   height: 80px;
+   color: var(--cor3);
+}
+header span{
+    font-family: var(--fonte-titulo);
+    padding-left: 10px;
+    font-weight: bold;
+}
+header a{
+    padding: 15px;
+    color: var(--cor3);
+    text-decoration: none;
+    font-family: var(--fonte-texto);
+    font-weight: 500;
+    font-size: 0.9em;
+}
+header a:hover{
+    color: var(--cor1);
+}
+#principal{
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(to bottom, var(--cor2), white);
+    justify-content: space-between;
+    padding-top: 15vh;
+    max-height: 520px;
+    padding: 75px 15px;
+}
+#texto-vermelho{
+    color:#713333; 
+}
+#principal > div{
+    flex-direction: column;
+    max-width: 500px;
+    min-width: 300px;
+}
+#principal h1{
+    font-family: var(--fonte-titulo);
+    font-size: 2.2em;
+    line-height: 1.3em;
+}
+#principal p{
+    font-family: var(--fonte-texto);
+    line-height: 1.5em;
+    padding: 25px 0px;
+    text-align: justify;
+   
+}
+#imagem img{
+    width: 100%;
+}
+section{
+    background-image: linear-gradient(to top, var(--cor2), white);
+}
+section h2{
+    text-align: center;
+    font-family: var(--fonte-titulo);
+    padding-bottom: 10px;
+    text-decoration: underline;
+    text-decoration-color: #713333;
+}
+section > article{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: var(--fonte-texto);
+}
+section > article > div{
+    margin: 10px;
+    width: 200px;
+    font-size: 0.8em;
+    text-align: justify;
+    background-color: white;
+    border-radius:10px ;
+}
+section > article > div > img{
+    border-radius: 10px 10px 0px 0px;
+}
+section > article > div > h3{
+    text-align: center;
+    padding: 5px 0px;
+    
+}
+section > article > div > p{
+    padding: 5px;
+}
+footer{
+    background-color: var(--cor2);
+    text-align: center;
+    font-family: var(--fonte-texto);
+    font-size: 0.8em;
+    padding: 30px 0px 10px 0px;
+}
+footer p{
+    padding: 3px;
+}
+footer a{
+    color: #713333;
+    text-decoration: none;
+}
+footer a:hover{
+    color: var(--cor1);
+}
